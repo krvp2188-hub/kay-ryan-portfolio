@@ -1069,3 +1069,53 @@ button {
     top: 8px;
   }
 }
+
+
+.direct-email {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.direct-email > span {
+  color: #888;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.email-address {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.email-address:hover {
+  color: var(--orange);
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 4px;
+}
+
+.social-links a {
+  display: flex;
+  width: 19px;
+  height: 19px;
+  color: white;
+  transition: .3s ease;
+}
+
+.social-links svg {
+  width: 100%;
+  height: 100%;
+}
+
+.social-links a:hover {
+  color: var(--orange);
+  transform: translateY(-3px);
+}

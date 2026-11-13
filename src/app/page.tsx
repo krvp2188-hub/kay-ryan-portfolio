@@ -117,12 +117,42 @@ export default function Home() {
         </h2>
 
 
+
 <div className="direct-email">
-  <span></span>
-  <a href="mailto:krvp2188@gmail.com">
-   EMAIL ME DIRECTLY : krvp2188@gmail.com ↗
+  <span>EMAIL ME DIRECTLY</span>
+
+  <a
+    className="email-address"
+    href="mailto:krvp2188@gmail.com"
+  >
+    krvp2188@gmail.com ↗
   </a>
+
+  <div className="social-links">
+    <a
+      href="YOUR_LINKEDIN_URL"
+      target="www.linkedin.com/in/kay-ryan-perez-19a52626"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.98h3.42v1.57h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.56V8.98h3.56v11.47ZM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.43c.99 0 1.79-.77 1.79-1.73V1.73C24 .77 23.2 0 22.22 0Z" fill="currentColor"/>
+      </svg>
+    </a>
+
+    <a
+      href="YOUR_FACEBOOK_URL"
+      target="https://www.facebook.com/kayryanperez/"
+      rel="noopener noreferrer"
+      aria-label="Facebook"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M24 12a12 12 0 1 0-13.875 11.85v-8.38H7.078V12h3.047V9.356c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953h-1.513c-1.49 0-1.956.925-1.956 1.874V12h3.328l-.532 3.47h-2.796v8.38A12.003 12.003 0 0 0 24 12Z" fill="currentColor"/>
+      </svg>
+    </a>
+  </div>
 </div>
+
 
         <div className="contact-footer">
           <span>KAY RYAN PEREZ © 2026</span>
