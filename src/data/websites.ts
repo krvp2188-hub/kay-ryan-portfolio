@@ -1,0 +1,48 @@
+
+export const websites = [
+  {
+    title: "DinkPoint Panabo",
+    description: "Online pickleball court booking platform.",
+    url: "https://dinkpointpanabo.com",
+    image: "/images/live-websites/dinkpoint.jpg",
+    technologies: ["Next.js", "Supabase", "Tailwind CSS"],
+    role: "UI Design / Development",
+    featured: true,
+  },
+  {
+    title: "AI for Business Live LA",
+    description: "Landing page for people to opt in and register for a live event.",
+    url: "https://aiforbusinesslive.com/",
+    image: "/images/live-websites/website-02.jpg",
+    technologies: ["GoHighLevel"],
+    role: "Funnel Design and Build",
+    featured: false,
+  },
+  {
+    title: "The “Automated Investor” Workshop",
+    description: "Optin page for The 3-Day Real Estate Event From Dolmar Cross",
+    url: "https://automatedinvestor.com/workshop-ig",
+    image: "/images/live-websites/website-03.jpg",
+    technologies: ["ClickFunnels"],
+    role: "Funnel Design and Build",
+    featured: false,
+  },
+  {
+    title: "Infinity Workshop Events Page",
+    description: "Creative landing page and digital experience.",
+    url: "https://infinityinvesting.com/infinity-investing-workshops/",
+    image: "/images/live-websites/website-04.jpg",
+    technologies: ["Wordpress"],
+    role: "Page Design and Build",
+    featured: false,
+  },
+  {
+    title: "Pickleball Booking Site Demo",
+    description: "Modern responsive business website.",
+    url: "https://paddlebluedemo.vercel.app/",
+    image: "/images/live-websites/website-05.jpg",
+    technologies: ["Next.js", "Supabase", "Tailwind CSS"],
+    role: "UI Design / Development",
+    featured: false,
+  },
+];
