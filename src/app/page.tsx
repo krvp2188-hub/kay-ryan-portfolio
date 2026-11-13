@@ -92,11 +92,11 @@ export default function Home() {
 
         <div className="services-list">
           {[
-            ["01", "Multimedia & Graphic Design", "Branding, logos, advertisements, print and digital graphics."],
-            ["02", "Web Design & Development", "Website design, responsive layouts, landing pages and funnels."],
-            ["03", "AI Creative Production", "AI image creation, creative workflows and visual experimentation."],
-            ["04", "AI-Assisted Development", "Modern web experiences, coding workflows and digital solutions."],
-            ["05", "Automation & Digital Systems", "GoHighLevel, workflows, integrations and marketing automation."],
+            ["01", "Graphic Design", "Branding, logos, digital ads, brochures, print materials, infographics."],
+            ["02", "Multimedia", "Video editing, ebooks, digital magazines, social media content."],
+            ["03", "Web Design", "Website layouts, responsive design, HTML/CSS, WordPress."],
+            ["04", "Funnel Building", "Landing pages, opt-in pages, sales pages, thank-you pages, webinar funnels"],
+            ["05", "Ai-Creative & Development", "AI image creation, coding assistance, debugging, web application development."],
           ].map(([number, title, description]) => (
             <div className="service-row" key={number}>
               <span>{number}</span>
@@ -116,9 +116,13 @@ export default function Home() {
           <span className="orange">IT HAPPEN.</span>
         </h2>
 
-        <a className="contact-button" href="mailto:krvp2188@gmail.com">
-          GET IN TOUCH ↗
-        </a>
+
+<div className="direct-email">
+  <span></span>
+  <a href="mailto:krvp2188@gmail.com">
+   EMAIL ME DIRECTLY : krvp2188@gmail.com ↗
+  </a>
+</div>
 
         <div className="contact-footer">
           <span>KAY RYAN PEREZ © 2026</span>
